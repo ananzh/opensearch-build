@@ -25,8 +25,8 @@ from test_workflow.test_result.test_suite_results import TestSuiteResults
 def pull_build_repo(work_dir):
     logging.info("Pulling opensearch-build")
     GitRepository(
-        "https://github.com/opensearch-project/opensearch-build.git",
-        "main",
+        "https://github.com/ananzh/opensearch-build.git",
+        "test",
         os.path.join(work_dir, "opensearch-build"),
     )
 
